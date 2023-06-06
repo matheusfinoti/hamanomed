@@ -1,0 +1,73 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.menu-btn-atual {
+  background: #1abc9c;
+  color: #fff !important;
+  /* padding: 3% !important; */
+}
+
+.header-banner {
+  border: 1px solid black;
+}
+
+.header-background-index {
+  background-image: url("../assets/img/portfolio/banner.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-background-clinica {
+  background-image: url("../assets/img/portfolio/banner.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-background-corpoClinico {
+  background-image: url("../assets/img/portfolio/banner.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-background-locacaoDeSalas {
+  background-image: url("../assets/img/portfolio/banner.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-background-contato {
+  background-image: url("../assets/img/portfolio/banner.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 992px) {
+  .header-banner {
+
+    height: 430px;
+    border: 1px solid black;
+  }
+
+  .header-title {
+    font-size: 5.5rem !important;
+    font-weight: 100 !important;
+  }
+
+  .header-subtitle {
+    font-family: roboto;
+    letter-spacing: 1.1rem !important;
+    padding-top: 0.5rem !important;
+    font-size: 1.4rem !important;
+    font-weight: 100;
+  }
+
+  .menu-btn {
+    /* font-size: 0.8rem; */
+  }
+
+  .menu-btn-atual {
+    background: #1abc9c;
+    color: #fff !important;
+  }
+}
