@@ -2,6 +2,26 @@ body {
   font-family: 'Roboto Condensed', sans-serif !important;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1abc9c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #81bdb1;
+}
+
 .menu-btn-atual {
   background: #1abc9c;
   color: #fff !important;
@@ -10,16 +30,6 @@ body {
 
 .header-banner {
   /* border: 1px solid black; */
-}
-
-.header-title {
-  font-size: 2rem;
-  font-weight: 100;
-}
-
-.header-subtitle {
-  font-size: 2rem;
-  font-weight: 100;
 }
 
 .header-background-index {
@@ -51,42 +61,57 @@ body {
 }
 
 .masthead {
-  /* border: solid 1px black; */
   margin-bottom: 10em;
+  padding-top: 110px;
+}
+
+.masthead-div {
+  position: absolute;
+  z-index: 99;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding-top: 3rem;
 }
 
 .masthead-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  border: solid 1px red;
-  max-width: 100vw;
-  /* max-height: 100vh; */
-  transition: width cubic-bezier(0.215, 0.610, 0.355, 1);
+  position: relative;
+}
+
+.masthead-heading {
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+.masthead-subheading {
+  font-size: 0.6rem;
+  font-weight: 100;
+  letter-spacing: 0.3rem;
 }
 
 .about-section {
   margin-bottom: 10em;
+  
 }
 
 .about-section p {
-  margin: 0em 1.5em 0 1.5em;
+  padding: 0em 2em;
   max-width: 50ch;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .banner2-section {
   /* border: 2px dotted green; */
   margin-bottom: 10em;
-  
+
 }
 
-.div-img {
+.banner2-div {
   position: relative;
 }
 
-.div-img img {
+.banner2-div img {
   position: absolute;
   top: 0;
   left: 0;
@@ -97,11 +122,27 @@ body {
   border-radius: 10px;
 }
 
-
-.div-img p {
+.banner2-div p {
   padding: 3em;
-  font-size: 2rem;
+  font-size: 1rem;
   color: rgb(181, 180, 180);
+}
+
+.telemed-section {
+  margin-bottom: 10em;
+  /* border: solid 1px black; */
+}
+
+.telemed-section h2 {
+  /* margin-bottom: 2em; */
+  font-weight: 100;
+}
+
+.telemed-section p {
+  text-align: left;
+  padding: 3em 3em 3em 0;
+  font-size: 1rem;
+  max-width: 50ch;
 }
 
 .carousel-videos {
@@ -113,21 +154,62 @@ body {
   margin-bottom: 10em;
 }
 
-@media (min-width: 768px) {
+.depoimento {
+  margin-bottom: 10em;
+}
 
-  .about-section {
-    font-size: 1.5rem;
-  }
-
-  .header-title {
-  }
-  
-  .header-subtitle {
-  }
+.depoimento-title {
+  margin-bottom: 2em;
 
 }
 
+.depoimento-card {
+  margin-bottom: 1.75em;
+}
+
+.card-body-img {
+  max-width: 6em;
+  border-radius: 40%;
+  float: right;
+  border: 0.2rem rgb(45, 141, 237) solid;
+}
+
+@media (min-width: 768px) {
+  .masthead-div {
+    padding-top: 10rem;
+  }
+
+  .masthead-heading {
+    font-size: 4rem;
+  }
+
+  .masthead-subheading {
+    padding-top: 1.25rem;
+    font-size: 2.25rem;
+  }
+
+  .about-section p {
+    font-size: 1.5rem;
+  }
+
+  .banner2-div p {
+    font-size: 1.5rem;
+  }
+
+  .telemed-section {}
+
+  .telemed-section h2 {}
+
+  .telemed-section p {
+    font-size: 1.5rem;
+  }
+}
+
 @media (min-width: 992px) {
+  .masthead-div {
+    padding-top: 250px;
+  }
+
   .header-banner {
     /* height: 430px; */
     /* border: 1px solid black; */
@@ -145,13 +227,9 @@ body {
     font-weight: 100;
   }
 
-  .masthead {
-   
-  }
-  
-  .masthead-img {
-    border: solid 1px red;
-  }
+  .masthead {}
+
+  .masthead-img {}
 
   .menu-btn {
     /* font-size: 0.8rem; */
@@ -162,13 +240,18 @@ body {
     color: #fff !important;
   }
 
-  .about-section {
-  
-  }
-  
+  .about-section {}
+
   .about-section p {
-    margin: 7em 1.5em;
     max-width: 80ch;
+    font-size: 2rem;
+  }
+
+  .banner2-div p {
+    font-size: 2rem;
+  }
+
+  .telemed-section p {
     font-size: 2rem;
   }
 }

@@ -10975,17 +10975,17 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  /* padding-top: calc(6rem + 74px); */
+  /* padding-bottom: 6rem; */
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  /* font-size: 2.75rem; */
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
   
   margin-top: 2rem;
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
 }
 .masthead .masthead-avatar {
   width: 100%;
@@ -10993,16 +10993,16 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    /* padding-top: calc(6rem + 104px); */
+    /* padding-bottom: 6rem; */
   }
   .masthead .masthead-heading {
-    font-size: 6rem;
+    /* font-size: 6rem; */
     line-height: 3.5rem;
     font-weight: lighter;
   }
   .masthead .masthead-subheading {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: lighter;
   }
 }
