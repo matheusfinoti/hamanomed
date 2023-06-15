@@ -130,12 +130,11 @@ body {
 
 .telemed-section {
   margin-bottom: 10em;
-  /* border: solid 1px black; */
 }
 
 .telemed-section h2 {
-  /* margin-bottom: 2em; */
   font-weight: 100;
+
 }
 
 .telemed-section p {
@@ -160,7 +159,7 @@ body {
 
 .depoimento-title {
   margin-bottom: 2em;
-
+  font-weight: 100;
 }
 
 .depoimento-card {
