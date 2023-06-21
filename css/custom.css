@@ -25,7 +25,7 @@ body {
 .menu-btn-atual {
   background: #1abc9c;
   color: #fff !important;
-  /* padding: 3% !important; */
+  /* padding: 0.5rem !important; */
 }
 
 .masthead {
@@ -211,7 +211,6 @@ body {
 
   .menu-btn-atual {
     background: #1abc9c;
-    color: #fff !important;
   }
 
   .about-section {}
