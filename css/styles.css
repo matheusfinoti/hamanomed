@@ -121,7 +121,6 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: Roboto, "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 800;
   line-height: 1.2;
 }
@@ -10901,7 +10900,6 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: Roboto, "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
   color: #000;
@@ -10974,38 +10972,6 @@ html {
   color: #6c757d;
 }
 
-.masthead {
-  /* padding-top: calc(6rem + 74px); */
-  /* padding-bottom: 6rem; */
-}
-.masthead .masthead-heading {
-  /* font-size: 2.75rem; */
-  line-height: 2.75rem;
-}
-.masthead .masthead-subheading {
-  
-  margin-top: 2rem;
-  /* font-size: 1.25rem; */
-}
-.masthead .masthead-avatar {
-  width: 100%;
-}
-
-@media (min-width: 992px) {
-  .masthead {
-    /* padding-top: calc(6rem + 104px); */
-    /* padding-bottom: 6rem; */
-  }
-  .masthead .masthead-heading {
-    /* font-size: 6rem; */
-    line-height: 3.5rem;
-    font-weight: lighter;
-  }
-  .masthead .masthead-subheading {
-    /* font-size: 1.5rem; */
-    font-weight: lighter;
-  }
-}
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;

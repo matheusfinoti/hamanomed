@@ -28,13 +28,8 @@ body {
   /* padding: 3% !important; */
 }
 
-.header-banner {
-  /* border: 1px solid black; */
-}
-
 .masthead {
   margin-bottom: 10em;
-  padding-top: 110px;
 }
 
 .masthead-div {
@@ -43,7 +38,7 @@ body {
   color: white;
   text-align: center;
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 10rem;
 }
 
 .masthead-img {
@@ -107,7 +102,7 @@ body {
 
 .telemed-section h2 {
   font-weight: 100;
-
+  
 }
 
 .telemed-section p {
@@ -157,7 +152,9 @@ body {
 
   .header-subtitle {
     padding-top: 1.25rem;
-    font-size: 2.25rem;
+    font-size: 1rem;
+    letter-spacing: 1rem;
+
   }
 
   .about-section p {
@@ -170,7 +167,9 @@ body {
 
   .telemed-section {}
 
-  .telemed-section h2 {}
+  .telemed-section h2 {
+    font-size: 3rem;
+  }
 
   .telemed-section p {
     font-size: 1.5rem;
@@ -190,13 +189,16 @@ body {
   .header-title {
     font-size: 5.5rem !important;
     font-weight: 100 !important;
+    border: solid 1px black;
   }
 
   .header-subtitle {
-    letter-spacing: 1.1rem !important;
-    padding-top: 0.5rem !important;
-    font-size: 1.4rem !important;
+    letter-spacing: 1.3rem ;
+    font-size: 1.4rem;
     font-weight: 100;
+    margin-top: 2rem;
+    border: solid 1px black;
+
   }
 
   .masthead {}
@@ -225,6 +227,10 @@ body {
 
   .telemed-section p {
     font-size: 2rem;
+  }
+
+  .telemed-section h2 {
+    font-size: 4rem;
   }
 }
 
