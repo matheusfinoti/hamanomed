@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <style>
+    * {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 800;
+    }
+
+    #featured-container .col-md-4 {
+      position: relative;
+      cursor: pointer;
+    }
+
+    #featured-container .col-md-4:hover>.banner-content {
+      opacity: 0.8;
+    }
+
+    img {}
+
+    .banner-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.3;
+      transition: .5s;
+    }
+
+    @media (min-width: 768px) {
+
+      .banner-content {
+        opacity: 0;
+      }
+
+      
+    }
+  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div class="container" id="featured-container">
+
+    <div class="col-12">
+      <h2 class="title primary-color">Trabalhos em Destaque</h2>
+      <p class="subtitle secondary-color">Conheça nossos projetos mais desafiadores</p>
+    </div>
+
+    <div class="col-12" id="featured-images">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <img src="cinza.png" alt="Projeto 1" class="img-fluid">
+          <div class="banner-content">
+            <p class="secondary-color">Categoria</p>
+            <h3>Nome do projeto</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="amarelo.png" alt="Projeto 2" class="img-fluid">
+          <div class="banner-content">
+            <p class="secondary-color">Categoria</p>
+            <h3>Nome do projeto</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="vinho.png" alt="Projeto 3" class="img-fluid">
+          <div class="banner-content">
+            <p class="secondary-color">Categoria</p>
+            <h3>Nome do projeto</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

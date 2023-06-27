@@ -22,6 +22,10 @@ body {
   background: #81bdb1;
 }
 
+.navbar {
+  border-bottom: dotted 1px rgba(0, 0, 0, 0.1);
+}
+
 .menu-btn-atual {
   background: #1abc9c;
   color: #fff !important;
@@ -38,7 +42,7 @@ body {
   color: white;
   text-align: center;
   width: 100%;
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 
 .masthead-img {
@@ -61,7 +65,7 @@ body {
 
 .about-section {
   margin-bottom: 10em;
-  
+
 }
 
 .about-section p {
@@ -102,7 +106,16 @@ body {
 
 .telemed-section h2 {
   font-weight: 100;
-  
+
+}
+
+.telemed-section h2::before {
+  content: "";
+  display: block;
+  border-top: 0.1rem dotted black;
+  width: 6rem;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
 }
 
 .telemed-section p {
@@ -121,13 +134,22 @@ body {
   margin-bottom: 10em;
 }
 
-.depoimento {
+.depoimento-section {
   margin-bottom: 10em;
 }
 
 .depoimento-title {
   margin-bottom: 2em;
   font-weight: 100;
+}
+
+.depoimento-title::before {
+  content: "";
+  display: block;
+  border-top: 0.1rem dotted black;
+  width: 6rem;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
 }
 
 .depoimento-card {
@@ -141,9 +163,11 @@ body {
   border: 0.2rem rgb(45, 141, 237) solid;
 }
 
+/*------------------ MEDIA QUERY 768 --------------------*/
+
 @media (min-width: 768px) {
   .masthead-div {
-    padding-top: 10rem;
+    padding-top: 15rem;
   }
 
   .header-title {
@@ -171,43 +195,57 @@ body {
     font-size: 3rem;
   }
 
+  .telemed-section h2::before {
+    border-top: 0.15rem dotted black;
+    width: 6rem;
+  }
+
   .telemed-section p {
     font-size: 1.5rem;
   }
+
+  .telemed-section h2::before {
+    border-top: 0.12rem dotted black;
+    width: 10rem;
+  }
+
+  .depoimento-title {
+    font-size: 3rem;
+  }
+
+  .depoimento-title::before {
+    border-top: 0.12rem dotted black;
+    width: 10rem;
+  }
 }
+
+/*------------------ MEDIA QUERY 992 --------------------*/
 
 @media (min-width: 992px) {
   .masthead-div {
     padding-top: 250px;
   }
 
-  .header-banner {
-    /* height: 430px; */
-    /* border: 1px solid black; */
+  .masthead-img {
+    padding-top: 100px;
   }
 
   .header-title {
     font-size: 5.5rem !important;
     font-weight: 100 !important;
-    border: solid 1px black;
   }
 
   .header-subtitle {
-    letter-spacing: 1.3rem ;
+    letter-spacing: 1.3rem;
     font-size: 1.4rem;
     font-weight: 100;
     margin-top: 2rem;
-    border: solid 1px black;
 
   }
 
   .masthead {}
 
   .masthead-img {}
-
-  .menu-btn {
-    /* font-size: 0.8rem; */
-  }
 
   .menu-btn-atual {
     background: #1abc9c;
@@ -231,10 +269,25 @@ body {
   .telemed-section h2 {
     font-size: 4rem;
   }
+
+  .telemed-section h2::before {
+    border-top: 0.15rem dotted black;
+    width: 15rem;
+  }
+
+  .depoimento-title {
+    font-size: 4em;
+  }
+
+  .depoimento-title::before {
+    border-top: 0.15rem dotted black;
+    width: 15rem;
+  }
+
 }
 
 
 /*Aqui comecam os estilos da pagina especialidades.html*/
-#->Especialidades.index {}
-
-
+.espec {
+  margin-bottom: 3rem;
+}
